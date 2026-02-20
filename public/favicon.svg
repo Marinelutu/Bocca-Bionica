@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <circle cx="512" cy="512" r="480" fill="#000000" stroke="#e01ce0" stroke-width="60"/>
+  <g transform="translate(512, 512) rotate(-4) translate(-512, -512)">
+    <rect x="232" y="240" width="560" height="110" fill="#e01ce0" />
+    <text x="512" y="325" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="90" fill="#ffffff" text-anchor="middle" letter-spacing="3">SISTEMA</text>
+    
+    <text x="500" y="490" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="150" fill="#ffffff" text-anchor="middle" letter-spacing="-3">Denti Fissi</text>
+    <text x="960" y="380" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="50" fill="#ffffff" text-anchor="middle">®</text>
+    
+    <rect x="70" y="520" width="884" height="150" fill="#ffffff" />
+    <text x="512" y="635" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="125" fill="#000000" text-anchor="middle" letter-spacing="1">SENZA OSSO</text>
+  </g>
+</svg>

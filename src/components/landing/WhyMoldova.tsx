@@ -1,3 +1,5 @@
+import InteractiveEuropeMap from "./InteractiveEuropeMap";
+
 const reasons = [
   {
     num: "01",
@@ -43,10 +45,8 @@ const WhyMoldova = () => (
           </div>
           <p className="font-semibold text-foreground">Operiamo in Moldavia per 4 semplici motivi:</p>
         </div>
-        <div className="flex-1">
-          <div className="aspect-[3/4] w-full rounded-xl bg-secondary flex items-center justify-center">
-            <span className="text-5xl">🗺️</span>
-          </div>
+        <div className="flex-1 flex items-center justify-center">
+          <InteractiveEuropeMap />
         </div>
       </div>
       <div className="mt-10 grid gap-6 md:grid-cols-2">

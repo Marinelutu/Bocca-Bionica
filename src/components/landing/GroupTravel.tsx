@@ -1,3 +1,5 @@
+import InteractiveEuropeMap from "./InteractiveEuropeMap";
+
 const patientGroups = [
   "https://turismodentale.it/wp-content/uploads/2024/07/Gruppo-di-maschere-7.webp",
   "https://turismodentale.it/wp-content/uploads/2024/07/Gruppo-di-maschere-8.webp",
@@ -40,11 +42,7 @@ const GroupTravel = () => (
           </div>
         </div>
         <div className="flex-1">
-          <img
-            src="https://turismodentale.it/wp-content/uploads/2025/09/mappa-moldavia.png"
-            alt="Mappa Moldavia"
-            className="w-full rounded-2xl shadow-xl"
-          />
+          <InteractiveEuropeMap />
         </div>
       </div>
 
