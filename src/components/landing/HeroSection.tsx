@@ -40,6 +40,19 @@ const HeroSection = () => {
             → Richiedi Preventivo Gratuito
           </button>
         </div>
+        <div className="flex-1 w-full max-w-2xl">
+          <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-2xl border-4 border-white/10">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/2gDu4Fk83nw"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen>
+            </iframe>
+          </div>
+        </div>
       </div>
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 animate-bounce">
         <img

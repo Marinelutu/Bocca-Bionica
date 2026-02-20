@@ -50,16 +50,11 @@ const DrPalmas = () => (
       </div>
 
       <div className="flex flex-col gap-12 lg:flex-row lg:items-center">
-        <div className="flex-1 relative">
+        <div className="flex-1">
           <img
             src="https://turismodentale.it/wp-content/uploads/2024/08/IMG_3458-copia.webp"
             alt="Dr. Palmas"
-            className="w-full rounded-3xl shadow-2xl relative z-10"
-          />
-          <img
-            src="https://turismodentale.it/wp-content/uploads/2024/08/specchiopalmas.webp"
-            alt="Dr. Palmas riflesso"
-            className="absolute -bottom-10 -right-10 w-2/3 rounded-2xl shadow-2xl z-20 border-8 border-white hidden md:block"
+            className="w-full max-w-md mx-auto rounded-3xl shadow-2xl block"
           />
         </div>
 

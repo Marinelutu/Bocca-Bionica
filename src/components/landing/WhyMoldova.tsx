@@ -30,8 +30,16 @@ const WhyMoldova = () => (
             Perché io e la mia equipe operiamo all'estero?
           </h2>
           <p className="text-muted-foreground">La risposta risiede in questo video:</p>
-          <div className="aspect-video w-full rounded-xl bg-secondary flex items-center justify-center">
-            <span className="text-5xl">▶️</span>
+          <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-xl border-4 border-white">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/eY7bzd1rCQg"
+              title="Perché operiamo in Moldavia"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen>
+            </iframe>
           </div>
           <p className="font-semibold text-foreground">Operiamo in Moldavia per 4 semplici motivi:</p>
         </div>

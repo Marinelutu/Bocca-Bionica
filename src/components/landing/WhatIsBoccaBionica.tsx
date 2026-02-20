@@ -30,13 +30,13 @@ const WhatIsBoccaBionica = () => (
           dei migliori materiali e delle tecnologie più all'avanguardia (inclusa l'intelligenza artificiale).
         </p>
         <p className="font-semibold text-foreground">Una soluzione capace di:</p>
-        <div className="space-y-6">
+        <div className="space-y-8 mt-6">
           {features.map((f, i) => (
-            <div key={i} className="flex gap-4 items-start">
-              <img src={f.icon} alt="" className="h-16 w-16 min-w-[64px] rounded-lg object-cover shadow-sm" />
+            <div key={i} className="flex gap-6 items-center">
+              <img src={f.icon} alt="" className="h-28 w-28 min-w-[112px] rounded-xl object-cover shadow-md" />
               <div>
-                <p className="font-semibold text-foreground">{f.title}</p>
-                <p className="text-sm text-muted-foreground">{f.text}</p>
+                <p className="font-bold text-lg text-foreground">{f.title}</p>
+                <p className="text-base text-muted-foreground mt-1">{f.text}</p>
               </div>
             </div>
           ))}
