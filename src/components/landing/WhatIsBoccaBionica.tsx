@@ -1,16 +1,16 @@
 const features = [
   {
-    icon: "🍽️",
+    icon: "https://turismodentale.it/wp-content/uploads/2024/07/collage01.webp",
     title: "Restituirti la libertà di mangiare",
     text: "i tuoi cibi preferiti senza più soffrire.",
   },
   {
-    icon: "😄",
+    icon: "https://turismodentale.it/wp-content/uploads/2024/07/collage02.webp",
     title: "Sorridere di nuovo a pieni denti",
     text: "senza alcun disagio o imbarazzo nelle interazioni sociali.",
   },
   {
-    icon: "💪",
+    icon: "https://turismodentale.it/wp-content/uploads/2024/07/collage03.webp",
     title: "Farti ritrovare quella fiducia in te stesso",
     text: "che da troppo tempo ti manca, permettendoti di affrontare le tue giornate con uno spirito completamente diverso.",
   },
@@ -30,10 +30,10 @@ const WhatIsBoccaBionica = () => (
           dei migliori materiali e delle tecnologie più all'avanguardia (inclusa l'intelligenza artificiale).
         </p>
         <p className="font-semibold text-foreground">Una soluzione capace di:</p>
-        <div className="space-y-5">
+        <div className="space-y-6">
           {features.map((f, i) => (
-            <div key={i} className="flex gap-4">
-              <span className="text-3xl">{f.icon}</span>
+            <div key={i} className="flex gap-4 items-start">
+              <img src={f.icon} alt="" className="h-16 w-16 min-w-[64px] rounded-lg object-cover shadow-sm" />
               <div>
                 <p className="font-semibold text-foreground">{f.title}</p>
                 <p className="text-sm text-muted-foreground">{f.text}</p>
@@ -42,10 +42,12 @@ const WhatIsBoccaBionica = () => (
           ))}
         </div>
       </div>
-      <div className="flex flex-1 items-center justify-center">
-        <div className="aspect-square w-full max-w-sm rounded-2xl bg-secondary flex items-center justify-center">
-          <span className="text-6xl">🦷</span>
-        </div>
+      <div className="flex-1">
+        <img
+          src="https://turismodentale.it/wp-content/uploads/2024/07/Progetto-senza-titolo-_1_.webp"
+          alt="Sistema Bocca Bionica"
+          className="w-full rounded-2xl shadow-xl"
+        />
       </div>
     </div>
   </section>

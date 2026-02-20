@@ -11,6 +11,15 @@ const Footer = () => (
         2024 © turismodentale.it tutti i diritti riservati | SDT MARKETING &amp; SERVICES SRL, VAT: RO 49620161 –
         Str Mitropolit Varlam nr 54 Iasi – 700198
       </p>
+      <div className="flex justify-center pt-6 opacity-30 hover:opacity-100 transition-opacity">
+        <a href="https://stratagenius.it" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://turismodentale.it/wp-content/uploads/2024/07/STRATEGENIUSAgency_Rosso-1024x362.webp"
+            alt="Stratagenius Agency"
+            className="h-8 w-auto"
+          />
+        </a>
+      </div>
     </div>
   </footer>
 );

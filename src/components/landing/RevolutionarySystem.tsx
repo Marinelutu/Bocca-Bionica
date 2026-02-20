@@ -27,6 +27,13 @@ const RevolutionarySystem = () => {
             nuove tecnologie e ideando nuove tecniche grazie anche all'intelligenza artificiale.
           </p>
         </div>
+        <div className="my-10">
+          <img
+            src="https://turismodentale.it/wp-content/uploads/2024/07/Gruppo-di-maschere-5.webp"
+            alt="Il nostro team all'opera"
+            className="w-full rounded-2xl shadow-2xl"
+          />
+        </div>
         <button
           onClick={scrollToForm}
           className="inline-flex items-center gap-2 rounded-full bg-cta px-8 py-4 text-lg font-semibold text-cta-foreground transition-all hover:brightness-110"

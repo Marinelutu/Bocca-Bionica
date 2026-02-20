@@ -6,9 +6,11 @@ import WhatIsBoccaBionica from "@/components/landing/WhatIsBoccaBionica";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import BeforeAfterGallery from "@/components/landing/BeforeAfterGallery";
 import RevolutionarySystem from "@/components/landing/RevolutionarySystem";
+import EquipeInfographics from "@/components/landing/EquipeInfographics";
 import WhyMoldova from "@/components/landing/WhyMoldova";
 import ScamWarning from "@/components/landing/ScamWarning";
 import GroupTravel from "@/components/landing/GroupTravel";
+import ConventionGallery from "@/components/landing/ConventionGallery";
 import FourSteps from "@/components/landing/FourSteps";
 import VideoTestimonials from "@/components/landing/VideoTestimonials";
 import FacebookGroup from "@/components/landing/FacebookGroup";
@@ -29,9 +31,11 @@ const Index = () => (
     <TestimonialsSection />
     <BeforeAfterGallery />
     <RevolutionarySystem />
+    <EquipeInfographics />
     <WhyMoldova />
     <ScamWarning />
     <GroupTravel />
+    <ConventionGallery />
     <FourSteps />
     <VideoTestimonials />
     <FacebookGroup />
